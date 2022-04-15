@@ -1,0 +1,7 @@
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Development\ARPG\Definitions.ARPG.h
+C:\my_repo\projects\arpg\project\ARPG\Source\ARPG\Equipment.h
+C:\my_repo\projects\arpg\project\ARPG\Source\ARPG\Item.h
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Inc\ARPG\Item.generated.h
+C:\my_repo\projects\arpg\project\ARPG\Source\ARPG\Equipable.h
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Inc\ARPG\Equipable.generated.h
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Inc\ARPG\Equipment.generated.h

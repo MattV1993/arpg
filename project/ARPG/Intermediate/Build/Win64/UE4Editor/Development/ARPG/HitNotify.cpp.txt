@@ -1,0 +1,3 @@
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Development\ARPG\Definitions.ARPG.h
+C:\my_repo\projects\arpg\project\ARPG\Source\ARPG\HitNotify.h
+C:\my_repo\projects\arpg\project\ARPG\Intermediate\Build\Win64\UE4Editor\Inc\ARPG\HitNotify.generated.h

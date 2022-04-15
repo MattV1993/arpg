@@ -1,0 +1,109 @@
+Trade skills
+
+Mining:
+
+https://classroom.synonym.com/what-kind-of-materials-did-medieval-blacksmiths-use-12081991.html
+
+- Start being able to mine basic ore
+- As you level up, different ores can be mined
+
+    Ore Types:
+        - Tin
+        - Copper
+        - Iron
+        - Steel
+        - To ne named
+        
+
+Smelting:
+
+    - Based on smelting level and luck, better quality bars can be made
+    - Charcoal used as fuel
+
+
+    Bronze:
+
+    - Smelted with copper and tin
+
+    Iron:
+
+    - Smelted with iron ore
+
+    Steel:
+
+    - Smelted with iron ore after certain level
+
+    To be named:
+
+
+    All armour and weapons have different grades:
+
+    - Average
+    - Good Quality
+    - Pristine
+
+
+Armour making:
+
+    Light:
+
+    Medium:
+
+        - Cow Leather
+        - Buffalo Leather
+        - Aligator Leather
+        - Dragon Leather
+
+    Heavy:
+
+        - Bronze
+        - Iron
+        - Steel
+        - To be named
+
+
+Wood cutting:
+
+
+Fletchery:
+
+Bows:
+
+    - Basic Longbow
+    - Yew Longbow
+    - Composite bow
+    - Unamed bow
+
+
+    - Fish glue for composite bow
+
+Bow Strings:
+
+    - Hemp bowstring
+    - Unamed bowstring
+
+Hunting / Gathering:
+
+    - Hemp
+    - Animal Sinew ( elk, deer)
+
+- Getting mana somehow ???
+- Potion / buf making
+- Gathering
+- Alchamy / Magic construction
+- Taming
+
+Type pairs:
+- Mining + Smithing
+- Woodcutting + Fletchery
+- Getting manner
+- Hunting + Taming
+- Hunting + Potion / buf making
+- Hunting + Alchamy
+- Gathering + Alchamy
+- Gathering + Potion / buf making
+
+- Some skills require items from different specialties
+- Take a long time to master
+- Require very specific things to level up
+- Need to visit different places and find books to learn / level up skills. Not just repetitive grinding

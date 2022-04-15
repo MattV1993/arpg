@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ARPG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C7816B51-566C-48BE-AA36-7E64A2CF037D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ARPG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ARPGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AE0EA532-A314-442F-8864-126F1BB72F81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ARPG">
+      <UniqueIdentifier>{2A0BA10B-6089-4948-AEFA-BAB35837338A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\Armour.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Armour.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\ARPG\ARPG.Build.cs">
+      <Filter>Source\ARPG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ARPG\ARPG.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPG.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\ARPGCharacter.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPGCharacter.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\ARPGCharacterBase.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPGCharacterBase.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\ARPGGameMode.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\ARPGGameMode.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Arrow.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Arrow.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Cookable.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Cookable.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\DamageHandler.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\DamageHandler.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\DamageReceiver.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\DamageReceiver.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\DamageSender.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\DamageSender.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\DummyArrow.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\DummyArrow.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Equipable.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Equipable.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Equipment.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Equipment.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\HitReceiver.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\HitReceiver.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Inventory.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Inventory.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\InventoryItem.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\InventoryItem.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Item.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Item.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Loadout.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Loadout.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\PickupItem.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\PickupItem.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\RawFood.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\RawFood.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Shield.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Shield.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\SpellInventory.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\SpellInventory.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\SpellItem.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\SpellItem.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Team.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Team.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\Weapon.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\Weapon.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\WeaponBow.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\WeaponBow.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ARPG\WeaponSword.cpp">
+      <Filter>Source\ARPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ARPG\WeaponSword.h">
+      <Filter>Source\ARPG</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\AI">
+      <UniqueIdentifier>{EBC5A096-F02B-4DD2-883D-6ABEC3B9B5E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\AI\Private">
+      <UniqueIdentifier>{551188F4-AE41-44F0-BC55-32953D422943}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\AI\Private\ARPGAIController.cpp">
+      <Filter>Source\ARPG\AI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\AI\Private\ARPGCharacterBaseAI.cpp">
+      <Filter>Source\ARPG\AI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\AI\Public">
+      <UniqueIdentifier>{5367F4D8-4850-4A96-A4E2-E722E89DD3AE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\AI\Public\ARPGAIController.h">
+      <Filter>Source\ARPG\AI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\AI\Public\ARPGCharacterBaseAI.h">
+      <Filter>Source\ARPG\AI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\Animal">
+      <UniqueIdentifier>{202AC7DD-D308-4D44-8A49-1D1134DEF00F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\Animal\Private">
+      <UniqueIdentifier>{8214208B-2331-432B-B14F-1BFB9A924A7B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\Animal.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalController.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalState.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateContext.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateDeath.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateIdle.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateRun.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateStun.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Animal\Private\AnimalStateWalk.cpp">
+      <Filter>Source\ARPG\Animal\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\Animal\Public">
+      <UniqueIdentifier>{B58742BF-678D-4EE6-921F-65202540D495}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\Animal.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalController.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalState.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateContext.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateDeath.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateIdle.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateRun.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateStun.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Animal\Public\AnimalStateWalk.h">
+      <Filter>Source\ARPG\Animal\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\Attack">
+      <UniqueIdentifier>{B5E3B6C7-685F-45E3-BAF3-0D7A50719BD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\Attack\Private">
+      <UniqueIdentifier>{F50626B1-9440-476A-937E-91BE4B23AF5C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\Attack.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackHolder.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackWeapon.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackWeaponBow.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackWeaponBowHeavy.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackWeaponSword.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Attack\Private\AttackWeaponSwordHeavy.cpp">
+      <Filter>Source\ARPG\Attack\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\Attack\Public">
+      <UniqueIdentifier>{526EC37C-5B32-4147-A0BF-4C430D0E0837}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\Attack.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackHolder.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackWeapon.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackWeaponBow.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackWeaponBowHeavy.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackWeaponSword.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Attack\Public\AttackWeaponSwordHeavy.h">
+      <Filter>Source\ARPG\Attack\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\CameraState">
+      <UniqueIdentifier>{0B4E0F45-4A1C-4472-88A2-98B7DF0337A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\CameraState\Private">
+      <UniqueIdentifier>{E4FE93F4-1633-4F50-B082-7E191F67E86A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\CameraState\Private\ZoomState.cpp">
+      <Filter>Source\ARPG\CameraState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CameraState\Private\ZoomStateContext.cpp">
+      <Filter>Source\ARPG\CameraState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CameraState\Private\ZoomStateIdle.cpp">
+      <Filter>Source\ARPG\CameraState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CameraState\Private\ZoomStateZoom.cpp">
+      <Filter>Source\ARPG\CameraState\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\CameraState\Public">
+      <UniqueIdentifier>{76C86B17-233F-4253-8E2A-54990C974892}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\CameraState\Public\ZoomState.h">
+      <Filter>Source\ARPG\CameraState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CameraState\Public\ZoomStateContext.h">
+      <Filter>Source\ARPG\CameraState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CameraState\Public\ZoomStateIdle.h">
+      <Filter>Source\ARPG\CameraState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CameraState\Public\ZoomStateZoom.h">
+      <Filter>Source\ARPG\CameraState\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\CombatSystem">
+      <UniqueIdentifier>{FA3A7961-18D5-4EA9-AA82-01B219DEE100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\CombatSystem\Private">
+      <UniqueIdentifier>{3435C490-55ED-4F4E-8827-0308D7CDBBF9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatState.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateAttack.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateAttackAir.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateAttackHeavy.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateBlock.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateDeath.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateDodge.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateIdle.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateJump.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatStateStun.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\CombatSystem\Private\CombatSystemContext.cpp">
+      <Filter>Source\ARPG\CombatSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\CombatSystem\Public">
+      <UniqueIdentifier>{42E06C1F-E2BC-4455-84B3-938D14304BD2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatState.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateAttack.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateAttackAir.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateAttackHeavy.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateBlock.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateDeath.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateDodge.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateIdle.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateJump.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatStateStun.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\CombatSystem\Public\CombatSystemContext.h">
+      <Filter>Source\ARPG\CombatSystem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\FSM">
+      <UniqueIdentifier>{3783EEB7-A2B5-438A-AD52-8930B1DEDCA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\FSM\Public">
+      <UniqueIdentifier>{2E32E5B2-36D4-47C0-881D-575D4B2D7FC8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\FSM\Public\StateBase.h">
+      <Filter>Source\ARPG\FSM\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\FSM\Public\StateContextBase.h">
+      <Filter>Source\ARPG\FSM\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ARPG\Notify">
+      <UniqueIdentifier>{4EC36C66-6AA7-4273-AA72-767DD450D39A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ARPG\Notify\Private">
+      <UniqueIdentifier>{F7624561-F26E-4149-998D-FFF52DBFAF8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ARPG\Notify\Private\AnimNotifyAttackMontage.cpp">
+      <Filter>Source\ARPG\Notify\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Notify\Private\AnimNotifyFireArrow.cpp">
+      <Filter>Source\ARPG\Notify\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Notify\Private\AnimNotifySpawnArrow.cpp">
+      <Filter>Source\ARPG\Notify\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ARPG\Notify\Private\HitNotifyState.cpp">
+      <Filter>Source\ARPG\Notify\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ARPG\Notify\Public">
+      <UniqueIdentifier>{5E886277-D619-4B8F-8891-BBACF2EA3188}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ARPG\Notify\Public\AnimNotifyAttackMontage.h">
+      <Filter>Source\ARPG\Notify\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Notify\Public\AnimNotifyFireArrow.h">
+      <Filter>Source\ARPG\Notify\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Notify\Public\AnimNotifySpawnArrow.h">
+      <Filter>Source\ARPG\Notify\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ARPG\Notify\Public\HitNotifyState.h">
+      <Filter>Source\ARPG\Notify\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\my_repo\\projects\\arpg\\project\\ARPG\\Source\\ARPG\\ARPG.Build.cs",
+		"C:\\my_repo\\projects\\arpg\\project\\ARPG\\Source\\ARPG.Target.cs",
+		"C:\\my_repo\\projects\\arpg\\project\\ARPG\\Source\\ARPGEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

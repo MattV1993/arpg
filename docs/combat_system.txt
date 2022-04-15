@@ -1,0 +1,102 @@
+Combat System
+
+- State based
+- System needs to be modifyable at runtime to account for different weapons
+
+
+CombatSystemContext
+
+- Holds current state
+
+- Constructor stores interface for use when damage is applied
+CombatSystemContext(DamageHandler&)
+
+- Sends the params to the current CombatState
+void ApplyDamage(DamageParams)
+
+DamageHandler
+
+- Interface for receiving resolved DamageHandler
+
+void onDamageApplyed(int Damage or DamageParams)
+
+DamageParams
+- Damage
+- DamageType
+- HitParams (Location, Rotation ect)
+
+
+CombatState
+
+- Base class representing a state of CombatSystemContext
+
+String Name()
+
+- Damage Params is applied against the current state to see if hit is registered/effected
+void ApplyDamage(DamageParams)
+
+- Attack
+- Block
+- Dodge
+- Jump
+- Die
+
+- SetLoadout?
+
+CombatStateIdle
+CombatStateAttack
+CombatStateBlock
+CombatStateDodge
+CombatSystemStateJump
+CombatStateDie
+CombatStateSprint
+
+Loadout
+
+- Current weapons, armour / any other buffs which effect combat
+
+AttackAnim
+BlockAnim
+
+Damage
+ArmourStrength
+
+ActiveWeapon
+
+ActiveShield
+
+ActiveHeadArmour
+ActiveChestArmour
+ActiveLegArmour
+ActiveHandArmour
+ActiveBootArmour
+
+
+
+TODO 
+
+------------
+Combat state needs to hold some kind of loadout for different weapons so it knows which animation to play and stats to apply against damage
+
+CurrentWeaponLoadout or CurrentWeapon?
+CurrentArmourLoadout?
+CurrentLoadout = CurrentArmourLoadout + CurrentWeaponLoadout?
+
+Should current loadout be animations + stats?
+
+
+System to do something when exiting, then exit when finished
+
+
+// Responsible for taking hit and resolving damage and debufs
+// Responsible for giving creating hit by "using" weapon (get hit spec and play animation)
+class HitResolver
+{
+    HitResolver(Loadout through interface; IHitSpec??)
+    void OnHit(const FHitSpec& Hit);
+    void TryGiveHit();
+}
+
+
+"Boxing" style combat system. Stay cautios instead of running in and spamming
+light attacks dont stun oor stun for long?

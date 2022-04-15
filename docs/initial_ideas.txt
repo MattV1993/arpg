@@ -1,0 +1,130 @@
+https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/dynamic-combat-system-bundle
+
+Todo: 
+
+- create development strategy. Game engine ect
+
+Questions:
+
+- some type of deeper story/end game features for rare/unique things?
+
+- not too graphic intensive if possible/easy models
+- third person?
+- what time / ara is it in
+
+- Levelling / Skill tree:
+ 
+ - large protions of world auto generated?
+
+Pets:
+
+
+Home / Base:
+
+- Build home from specific trade skills
+- Instead of renting items, can eventually buy them
+
+
+PVP / Multiplayer:
+
+    - Different minigames
+    - Dungeons / raids
+
+
+World:
+
+    - Start at specific town(s)
+    - Sticking to path to other places isnt very dengerous
+    - Venturing into wilderness becomes more and more dangerous
+    - Dynamic, npcs are very active / unique
+    - Differnet events
+    - A lot to gain from exporing
+
+    - Biomes:
+        - Different biomes have different npcs, items, resources
+        - Differnet dimensions, unique biomes
+        - Need to prepare for different biomes:
+            Desert:
+                - Water
+                - Heat protection
+            Jungle:
+                - Poison protection
+            Mountains:
+                - Climbing
+                - Altitude protection?
+            Caves:
+                - Light source
+
+
+Combat system:
+
+    - Blocking / parrying
+    - Push back / kick
+    - Running / hiding
+
+In game economy:
+
+- Players master different trade skills and trade with each other
+- All play styles need something from others
+
+Combat skills:
+
+    Types:
+        - Melee:
+            - Weapons / armour from smithing
+        - Archery:
+            - Woodcutting / fletchery
+        - Magic:
+            - Mana
+            - Wands to increase mana / damage?
+
+    - All combat skills benefit from potions
+
+    - Players should use all combat types in certain scenarious
+    - Can mainly specialize in certain ones 
+    - All players develop these
+
+    - Combat skills can be combined to make unique play style
+
+Sub Combat skills:
+
+    Strength:
+        - Carry heavy armour
+    
+    Stamina / mobility:
+        - Run longer
+        - Get past certain obsticles
+
+    - Improves combat system skills (e.g blocking, pushback, running)
+
+
+
+Trade skills:
+
+    Types:
+        - Mining
+        - Smithing
+        - Wood cutting
+        - Fletchery
+        - Getting mana somehow ???
+        - Hunting
+        - Potion / buf making
+        - Gathering
+        - Alchamy / Magic construction
+        - Taming
+
+    Type pairs:
+        - Mining + Smithing
+        - Woodcutting + Fletchery
+        - Getting manner
+        - Hunting + Taming
+        - Hunting + Potion / buf making
+        - Hunting + Alchamy
+        - Gathering + Alchamy
+        - Gathering + Potion / buf making
+
+    - Some skills require items from different specialties
+    - Take a long time to master
+    - Require very specific things to level up
+    - Need to visit different places to learn / level up skills. Not just repetitive grinding
+
